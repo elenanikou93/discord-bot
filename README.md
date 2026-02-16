@@ -1,2 +1,18 @@
-# discord-bot
-AI-powered Discord bot designed to playfully roast and interact with friends in a private server while exploring natural language features and bot development.
+# AI Discord Bot
+A Python-based Discord bot designed to experiment with AI-driven responses and playful interactions within a private server.
+This project focuses on learning bot development, automation, and conversational behavior.
+
+## Status
+Work in progress!
+
+## Goals
+- Build a functional Discord bot in Python
+- Explore AI-generated responses
+- Practice working with APIs
+- Strengthen software design skills
+
+## Future Improvements
+- Add memory for better interactions
+- Deploy the bot for 24/7 availability
+- Improve response quality
+
