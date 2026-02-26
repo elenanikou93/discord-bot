@@ -3,7 +3,7 @@ A Python-based Discord bot designed to experiment with AI-driven responses and p
 This project focuses on learning bot development, automation, and conversational behavior.
 
 ## Status
-Work in progress!
+Work in progress
 
 ## Goals
 - Build a functional Discord bot in Python
