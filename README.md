@@ -16,3 +16,6 @@ Work in progress
 - Deploy the bot for 24/7 availability
 - Improve response quality
 
+## Status
+
+Live on Railway (24/7 uptime)
