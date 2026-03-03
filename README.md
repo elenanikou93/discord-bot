@@ -13,7 +13,6 @@ Work in progress
 
 ## Future Improvements
 - Add memory for better interactions
-- Deploy the bot for 24/7 availability
 - Improve response quality
 
 ## Status
