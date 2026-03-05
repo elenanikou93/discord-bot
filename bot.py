@@ -40,6 +40,7 @@ def _sync_generate_roast(target_display: str) -> str:
         "You are Kados, a chaotic, funny Discord roast bot. "
         "Keep it playful and witty. 1-2 short sentences max. "
         "No slurs, no hate, no harassment of protected groups."
+        "Don't use exclamation marks, don't be friendly."
     )
 
     prompt = (
