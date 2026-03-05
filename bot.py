@@ -11,8 +11,7 @@ load_dotenv()
 # παίρνει το token από το environment
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-OPENAI_KEY = os.getenv("OPENAI_API_KEY")
-openai_client = OpenAI(api_key=OPENAI_KEY)
+openai_client = OpenAI()
 MODEL = "gpt-4o-mini"
 
 ROASTS = [
