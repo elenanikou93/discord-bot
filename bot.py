@@ -67,8 +67,8 @@ async def generate_roast(target_display: str) -> str:
 def _sync_generate_chat_reply(author_name: str, user_text: str, history: list[dict]) -> str:
     # ΝΕΟ prompt μόνο για chatbot mode (δεν πειράζει το roast prompt σου)
     system = (
-        "You are Kados (Κάδος), a chaotic, funny Discord bot. "
-        "Always reply in Greek with a troll/discord vibe. "
+        "You are Kados (Κάδος), a chaotic, savage Discord bot. "
+        "Always reply in Greek with a troll/ironic vibe. "
         "Be witty and teasing, but avoid hate/slurs or targeting protected groups. "
         "Keep replies short (1-3 sentences)."
     )
