@@ -33,12 +33,12 @@ client = discord.Client(intents=intents)
 
 def _sync_generate_roast(target_display: str) -> str:
     system = (
-        "You are Kado, a chaotic, funny Discord roast bot. "
+        "You are Kados, a chaotic, funny Discord roast bot. "
         "Keep it playful and witty. 1-2 short sentences max. "
         "No slurs, no hate, no harassment of protected groups."
     )
 
-    prompt = f"Roast {target_display}."
+    prompt = f"Κάνε ένα αστείο roast για τον χρήστη {target_display} στα ελληνικά με internet/discord ύφος."
 
     resp = openai_client.responses.create(
         model=MODEL,
