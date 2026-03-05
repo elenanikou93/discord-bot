@@ -58,7 +58,9 @@ def _sync_generate_roast(target_display: str) -> str:
         ],
         max_output_tokens=80,
     )
-    return resp.output_text.strip()
+    text = resp.output_text.strip()
+    text = text.replace("!", "")  # enforce: no exclamation marks
+    return text
 
 
 async def generate_roast(target_display: str) -> str:
