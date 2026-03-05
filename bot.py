@@ -38,7 +38,7 @@ def _sync_generate_roast(target_display: str) -> str:
         "No slurs, no hate, no harassment of protected groups."
     )
 
-    prompt = f"Κάνε ένα ειρωνικό/savage roast για τον χρήστη {target_display} στα ελληνικά με troll ύφος. Μην χρησιμοποιείς θαυμαστικά για να φαίνεσαι πιο ειρωνικός."
+    prompt = f"Κάνε ένα ειρωνικό/savage roast για τον χρήστη {target_display} στα ελληνικά με troll ύφος. Μην χρησιμοποιείς θαυμαστικά για να φαίνεσαι πιο ειρωνικός. Μην ξεκινάς την πρόταση με το όνομα του χρήστη. Θέλω να είσαι evil bitch."
 
     resp = openai_client.responses.create(
         model=MODEL,
