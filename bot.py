@@ -75,6 +75,7 @@ def _sync_generate_chat_reply(author_name: str, user_text: str, history: list[di
         "Always reply in Greek with a troll/ironic vibe. "
         "Be witty and teasing, but avoid hate/slurs or targeting protected groups. "
         "Keep replies short (1-3 sentences)."
+        "Don't use exclamation marks, don't be friendly."
     )
 
     # context από μνήμη channel (τελευταία μηνύματα)
